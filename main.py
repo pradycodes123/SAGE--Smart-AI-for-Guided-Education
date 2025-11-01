@@ -95,7 +95,7 @@ def main():
     summarizer = PDFSummarizer("sshleifer/distilbart-cnn-12-6")
     
     # Update this path to your PDF file
-    pdf_path = "C:\\Users\\stfup\\Downloads\\awesome notes.pdf"
+    pdf_path = ""
     
     print("=" * 70)
     print("PDF SUMMARIZER & QUIZ GENERATOR")
@@ -154,4 +154,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
